@@ -1,3 +1,4 @@
+/* tags */
 table {
     color: #D2312D;
     background-color: #2DCED2;
@@ -13,27 +14,41 @@ header {
     color: navajowhite;
 }
 
-#tabela {
-    background-color: indigo;
-    width: 70%;
-    float: left;
-}
-
-aside {
-    background-color: indigo;
-    width: 30%;
-    float: right;
-}
 
 div {
-    clear: both;
     height: 50px;
-    background-color: navajowhite;
 }
 
 
 footer {
+    text-align: center;
+    clear: both;
     background-color: #808080;
-    height: 200px;
+    height: 100px;
     font-size: 12px;
+}  
+
+  /* ids */
+#divisorias {
+    margin: 10px;
+    min-height: 500px;
+}
+
+#div_left {
+    background-color: navajowhite;
+    width: 70%;
+    float: left;
+    min-height: inherit;
+}
+
+#div_right {
+    background-color: indigo;
+    width: 30%;
+    float: right;
+    min-height: inherit;
+}
+
+#apresentation {
+    text-align: center;
+    color: ghostwhite;
 }
