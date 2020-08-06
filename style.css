@@ -1,7 +1,39 @@
 table {
-    background-color: #4D9FB2;
+    color: #D2312D;
+    background-color: #2DCED2;
 }
 
-img {
-    background-color: #604DB2;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: indigo;
+    color: navajowhite;
+}
+
+#tabela {
+    background-color: indigo;
+    width: 70%;
+    float: left;
+}
+
+aside {
+    background-color: indigo;
+    width: 30%;
+    float: right;
+}
+
+div {
+    clear: both;
+    height: 50px;
+    background-color: navajowhite;
+}
+
+
+footer {
+    background-color: #808080;
+    height: 200px;
+    font-size: 12px;
 }
