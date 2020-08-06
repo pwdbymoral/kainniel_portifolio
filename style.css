@@ -12,6 +12,8 @@ table {
 header {
     background-color: indigo;
     color: navajowhite;
+    padding: 15px;
+    height: 80px;
 }
 
 
@@ -23,14 +25,16 @@ div {
 footer {
     text-align: center;
     clear: both;
-    background-color: #808080;
-    height: 100px;
+    background-color: indigo;
+    height: 50px;
     font-size: 12px;
+    color: navajowhite;
+    padding: 20px;
 }  
 
   /* ids */
 #divisorias {
-    margin: 10px;
+    margin: 0px;
     min-height: 500px;
 }
 
@@ -39,6 +43,7 @@ footer {
     width: 70%;
     float: left;
     min-height: inherit;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #div_right {
@@ -51,4 +56,10 @@ footer {
 #apresentation {
     text-align: center;
     color: ghostwhite;
+}
+
+/* classes */
+.container {
+   width: 960px;
+   margin: 0 auto;
 }
