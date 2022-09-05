@@ -1,65 +1,130 @@
 /* tags */
-table {
-    color: #D2312D;
-    background-color: #2DCED2;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-color: indigo;
     color: navajowhite;
-    padding: 15px;
-    height: 80px;
+    padding: 25px;
 }
 
-
-div {
-    height: 50px;
+.container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto 0 auto;
 }
 
+nav {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+.image-nav {
+    width: 35px;
+   
+}
+
+header h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 0;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    padding: 10%;
+    width: 940px;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: indigo;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+a {
+    color: navajowhite;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
 
 footer {
     text-align: center;
     clear: both;
     background-color: indigo;
-    height: 50px;
-    font-size: 12px;
+    font-size: 15px;
     color: navajowhite;
-    padding: 20px;
+    padding: 20px 0 40px 0; 
 }  
-
-  /* ids */
-#divisorias {
-    margin: 0px;
-    min-height: 500px;
-}
-
-#div_left {
-    background-color: navajowhite;
-    width: 70%;
-    float: left;
-    min-height: inherit;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-#div_right {
-    background-color: indigo;
-    width: 30%;
-    float: right;
-    min-height: inherit;
-}
-
-#apresentation {
-    text-align: center;
-    color: ghostwhite;
-}
 
 /* classes */
 .container {
-   width: 960px;
-   margin: 0 auto;
+    box-sizing: border-box;
+    width: 940px;
+    margin: 0 auto;
 }

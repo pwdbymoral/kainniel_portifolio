@@ -3,7 +3,8 @@
 
 
 <head> 
-	<meta charset="utf-8">	
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="reset.css">	
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<title> Artes de Kainniel </title>
 </head>
@@ -11,41 +12,47 @@
 <body>
 	<header>
 		<div class="container">
-			<p>Aqui residem as obras do mais lindo artista de todo o mundo, alguns diriam até do Brasil:</p>
-			<h1> Kainniel de Luna. </h1>
-			<p>Todos os elogios não são meramente bondade.</p>
+			<h1>Kainniel de Luna</h1>
+			<p class="subtitle">Todos os elogios não são meramente bondade.</p>
+			<nav>
+				<ul>
+					<li>
+						<a href="http://twitter.com/kainniel_luna" target="_blank" rel="noopener noreferrer">
+						<img src="tt icon.webp" class="image-nav"> 
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
+		
+		
 	</header>
 
-	<div id="divisorias">
-
-		<div id="div_left" class="container">
-			<p> Esses são os preços das comissions: </p>
-			<br />
-			<table>
-				<tr> <th>Preços não negociáveis</th> </tr>
-				<tr> <td>Emote da Twitch</td> <td>$50</td> </tr>
-				<tr> <td>Arte de Busto</td> <td>$100</td> </tr>
-				<tr> <td>Arte de Corpo Inteiro</td> <td>$300</td> </tr>
-				<tr> <td>Arte de Corpo Inteiro NSFW</td> <td>$500</td> </tr>
-			</table>
-
-			<br /><br /><br /><br /><br /><br /><br /><br /><br />
-			<p>Siga o mais famoso pixel artist do sistema solar:</p>
-			<p> <a href="http://twitter.com/kainniel_luna"> <img src="twitter.png" width="50px"> </a> </p>
+	<main>
+		<div>
+			<ul class="slider">
+				<li>
+					<input type="radio" id="slide1" name="slide" checked>
+          			<label for="slide1"></label>
+					<img src="1.jpg">
+				</li>
+				<li>
+					<input type="radio" id="slide2" name="slide">
+					<label for="slide2"></label>
+					<img src="2.jpg">
+				</li>
+				<li>
+					<input type="radio" id="slide3" name="slide">
+					<label for="slide3"></label>
+					<img src="3.jpg">
+				</li>
+			</ul>
 		</div>
-
-		
-		<div id="div_right" class="container">
-			<p id="apresentation">Hey, eu sou Kainniel, sexta faço 19 anos e uma comissão seria muito bem vinda! XD</p>
-			<img src="heart_me.gif"> 
-		</div>
-
-	</div>
-
+		<div></div>
+	</main>
 	<footer>
-		Dev by <a href="http://twitter.com/offmoralzin">@offmoralzin</a> <br />
-		2019, todos os direitos reservados.
+		<p>Dev by <a href="http://twitter.com/offmoralzin">@offmoralzin</a></p>
+		<p>2019, todos os direitos reservados.</p>
 	</footer>
 
 </body>
