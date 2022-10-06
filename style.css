@@ -1,4 +1,17 @@
-/* tags */
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
+
+/* Body */
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header/Cabeçalho */
 header {
     background-color: indigo;
     color: navajowhite;
@@ -7,8 +20,9 @@ header {
 
 .container {
     position: relative;
+    box-sizing: border-box;
     width: 940px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 nav {
@@ -35,11 +49,9 @@ header h1 {
     padding: 10px 10px 10px 0;
 }
 
-body {
-    background-color: white;
-}
-
+/* Main/Conteúdo */
 main {
+    margin: auto 0;
     padding: 10%;
     width: 940px;
 }
@@ -116,28 +128,24 @@ main {
     z-index: 10;
 }
 
-a {
-    color: navajowhite;
-    text-decoration: none;
-}
-
-a:hover {
-    font-size: 20px;
-    text-decoration: underline;
-}
-
+/* Footer/Rodapé */
 footer {
+    margin-top: auto;
     text-align: center;
     clear: both;
     background-color: indigo;
     font-size: 15px;
     color: navajowhite;
     padding: 20px 0 40px 0; 
-}  
+}
 
-/* classes */
-.container {
-    box-sizing: border-box;
-    width: 940px;
-    margin: 0 auto;
+footer a {
+    color: navajowhite;
+    text-decoration: none;
+    text-decoration: none;
+    transition: 400ms all;
+}
+
+footer a:hover {
+    font-size: 20px;
 }
