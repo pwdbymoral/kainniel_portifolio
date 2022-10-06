@@ -44,6 +44,15 @@ main {
     width: 940px;
 }
 
+.div-left {
+    width: 70%;
+}
+
+.div-right {
+    width: 30%;
+    display: inline;
+}
+
 .slider {
     display: block;
     height: 293px;
@@ -78,6 +87,10 @@ main {
     position: absolute;
     width: 10px;
     z-index: 10;
+}
+
+.slider label:hover {
+    background-color: red;
 }
 
 .slider li:nth-child(1) label {
