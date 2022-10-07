@@ -1,0 +1,38 @@
+/* Header/Cabeçalho */
+header {
+    background-color: indigo;
+    color: navajowhite;
+    padding: 25px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    font-weight: 700;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: "Silkscreen";
+
+    margin-bottom: 1rem;
+}
+
+.cabecalho__subtitulo {
+    font-weight: 400;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+
+.cabecalho__nav {
+    text-align: center;
+}
+
+.cabecalho__link {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 0 0.7rem 1.25rem 0.7rem;
+}
