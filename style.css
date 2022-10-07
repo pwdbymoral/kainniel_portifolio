@@ -1,7 +1,3 @@
-html { 
-    min-width: 320px; 
-    max-width: 1400px; 
-}
 
 /* Body */
 body {
@@ -99,6 +95,7 @@ main {
     position: absolute;
     width: 10px;
     z-index: 10;
+    transition: 300ms all;
 }
 
 .slider label:hover {
@@ -128,6 +125,11 @@ main {
     z-index: 10;
 }
 
+a {
+    color: navajowhite;
+    text-decoration: none;
+}
+
 /* Footer/Rodapé */
 footer {
     margin-top: auto;
@@ -140,8 +142,6 @@ footer {
 }
 
 footer a {
-    color: navajowhite;
-    text-decoration: none;
     text-decoration: none;
     transition: 400ms all;
 }
