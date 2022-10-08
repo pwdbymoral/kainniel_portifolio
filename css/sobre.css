@@ -6,7 +6,8 @@
 }
 .sobre__titulo {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
 .sobre__texto {
@@ -15,5 +16,6 @@
 
 .sobre__gif {
     display: block;
+    width: 10rem;
     margin: 1rem auto; 
 }
