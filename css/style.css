@@ -1,25 +1,6 @@
 
-/* Body */
-/* body {
-    background-color: white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-} */
-
-/* Header/Cabeçalho */
 body {
     font-family: "Open Sans", sans-serif;
-    
-    min-height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-}
-
-a {
-    text-decoration: none;
-    color: navajowhite;
 }
 
 .container {

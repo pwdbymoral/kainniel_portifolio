@@ -7,40 +7,43 @@
 	<link rel="stylesheet" href="css/reset.css">	
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/banner.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 	<title> Artes de Kainniel </title>
 </head>
 
 <body>
-	<header>
-		<div class="cabecalho container">
-			<h1 class="cabecalho__titulo">Kainniel</h1>
-			<p class="cabecalho__subtitulo">Pixels em vida.</p>
-			<nav class="cabecalho__nav">
-				<ul>
-					<li class="cabecalho__link">
-						<a href="#"> Home </a>
-					</li>
-					<li class="cabecalho__link">
-						<a href="#"> Galeria </a>
-					</li>
-					<li class="cabecalho__link">
-						<a href="http://twitter.com/kainniel_luna"> Twitter </a>
-					</li>
-				</ul>
-			</nav>
-		</div>
+	<header class="cabecalho container">
+		<h1 class="cabecalho__titulo">Kainniel</h1>
+		<p class="cabecalho__subtitulo">Pixels em vida.</p>
+		<nav class="cabecalho__nav">
+			<ul>
+				<li class="cabecalho__link">
+					<a href="#"> Home </a>
+				</li>
+				<li class="cabecalho__link">
+					<a href="#"> Galeria </a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
+	<main>
+		<section class="banner container">
+			<img src="img/img2.png" alt="Desenho digital em pixel art de uma batalha em um jogo de rpg de turno" class="banner__imagem">
+		</section>
+	</main>
+
 	<footer class="rodape container">
-		<p>Dev by <a href="http://twitter.com/offmoralzin">@offmoralzin</a></p>
-		<p>2019, todos os direitos reservados.</p>
-		<form action="" class="rodape__form"><label for="">Inscreva-se para novidades</label>
-			<div class="rodape__form-input"></div>
-			<input type="email" name="" id="" placeholder="email@dominio.com">
-			<input type="submit" value="Enviar">
+		<form action="">
+			<label for="email">Inscreva-se para receber novidades:</label>
+			<div class="rodape__form">
+				<input type="email" name="" id="email" placeholder="email@dominio.com" class="rodape__input">
+				<input type="submit" value="Enviar" class="rodape__input">
+			</div>
 		</form>
+		<p class="rodape__copyright">&copy; Copyright <a href="http://github.com/pwdbymoral">pwdbymoral</a> 2019</p>
 	</footer>
 
 </body>
