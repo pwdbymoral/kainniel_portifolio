@@ -11,32 +11,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    border-bottom: 1px solid navajowhite;
 }
 
 .cabecalho__titulo {
-    font-family: "Silkscreen";
-    font-size: 2rem;
+    font-size: 7rem;
     font-weight: 700;
+
     text-transform: uppercase;
-
     margin-bottom: 1rem;
-}
-
-.cabecalho__subtitulo {
-    font-weight: 400;
-    /* font-size: 3.25rem; */
-    /* margin-bottom: 1rem; */
+    
+    border-bottom: .5rem solid navajowhite;
 }
 
 .cabecalho__nav {
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .cabecalho__link {
     display: inline-block;
-    font-weight: 300;
-    /* font-size: 2.5rem; */
-    margin: 0 0.7rem 1.25rem 0.7rem;
+    
+    font-size: 3rem;
+    margin: 0 1.2rem 1.25rem 1.2rem;
 }

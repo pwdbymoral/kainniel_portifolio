@@ -1,0 +1,19 @@
+.sobre {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    background-color: antiquewhite;
+}
+.sobre__titulo {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.sobre__texto {
+    font-size: 1rem;
+}
+
+.sobre__gif {
+    display: block;
+    margin: 1rem auto; 
+}
