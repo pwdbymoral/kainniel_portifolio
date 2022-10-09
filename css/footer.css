@@ -19,17 +19,19 @@
     padding-top: 1rem;
 }
 
-.rodape__form {
-    
-    display: flex;
-    justify-content: center;
-    
-    height: auto;
+.rodape__icones {
+    padding-bottom: 1em;
+}
 
+.rodape__icone {
+    margin: 0 0.5rem;
+    height: 2.5rem;
+}
+
+.rodape__form {
     padding-top: 1rem;
 
     border-radius: .3rem;
-    
 }
 
 .rodape__input {

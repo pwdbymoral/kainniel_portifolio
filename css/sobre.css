@@ -4,6 +4,12 @@
     
     background-color: antiquewhite;
 }
+
+.sobre__icone {
+    display: block;
+    margin: 0 auto 0.3rem auto;
+    width: 2.5rem;
+}
 .sobre__titulo {
     text-align: center;
     font-size: 2rem;
