@@ -16,6 +16,7 @@
 .cabecalho__titulo {
     font-size: 2.5em;
     font-weight: 700;
+    font-family: "Silkscreen";
 
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -31,7 +32,7 @@
 .cabecalho__link {
     display: inline-block;
     
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
     margin: 0 .5rem 1.25rem .5rem;
 }

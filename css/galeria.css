@@ -1,0 +1,42 @@
+.galeria {
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.galeria__icone {
+    margin: 0.3rem;
+    width: 2rem;
+}
+
+.galeria__subtitulo {
+    font-weight: 400;
+
+}
+
+.galeria__painel {
+    /* border: 3px solid black; */
+    /* border-radius: 5px; */
+    /* box-shadow: black; */
+    box-shadow: black 0px 0px 5px 1px;
+    margin: 1rem 0;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.galeria__painel-imagem {
+    width: 100%;
+    border-top: 3px;
+    /* border-radius: 5px; */
+}
+
+.galeria__painel-legenda {
+    font-family: "Silkscreen", "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    padding: .5rem 0;
+}
