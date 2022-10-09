@@ -1,7 +1,6 @@
 .sobre {
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
-    
     background-color: antiquewhite;
 }
 
@@ -22,5 +21,6 @@
 .sobre__gif {
     display: block;
     width: 10rem;
-    margin: 1rem auto; 
+    margin: 1rem auto;
+    box-shadow: 6px 6px 18px 1px black;
 }

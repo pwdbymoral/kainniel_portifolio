@@ -1,7 +1,7 @@
 .galeria {
     background-color: antiquewhite;
     text-align: center;
-    padding-top: 0.3rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -12,13 +12,10 @@
 
 .galeria__subtitulo {
     font-weight: 400;
-
+    font-size: 1.125rem;
 }
 
 .galeria__painel {
-    /* border: 3px solid black; */
-    /* border-radius: 5px; */
-    /* box-shadow: black; */
     box-shadow: black 0px 0px 5px 1px;
     margin: 1rem 0;
     background-color: #FEFEFE;
@@ -30,13 +27,42 @@
 .galeria__painel-imagem {
     width: 100%;
     border-top: 3px;
-    /* border-radius: 5px; */
 }
 
 .galeria__painel-legenda {
     font-family: "Silkscreen", "Open Sans", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-
     padding: .5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .galeria__subtitulo {
+        padding-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .galeria {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .galeria__subtitulo {
+        width: 100%;
+    }
+    
+    .galeria__painel {
+        flex-grow: 1;
+        margin: 1rem 1rem;
+        width: 20%;
+        min-height: 2rem;
+    }
+
+    .galeria__painel-legenda {
+        margin-top: auto;
+        margin-bottom: 0.3rem;
+    }
 }

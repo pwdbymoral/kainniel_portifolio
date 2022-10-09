@@ -8,5 +8,12 @@
 .banner__imagem {
     width: 100vw;
     max-width: 768px;
-    box-shadow: rgb(0 0 3 / 85%) 0px 5px 9px 3px;
+    box-shadow: rgb(110 94 94) 0px 10px 10px 0.5px;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        padding: 1.5rem 0 0.5rem 0;
+    }
+    
 }

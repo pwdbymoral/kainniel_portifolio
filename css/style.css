@@ -10,3 +10,13 @@ body {
 .container {
     padding: 0 6%;
 }
+
+@media screen and (min-width: 1024px) {
+    a {
+        transition: 400ms all;
+    }
+
+    a:hover {
+        color: lightcoral;
+    }    
+}

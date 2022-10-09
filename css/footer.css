@@ -1,18 +1,15 @@
 .rodape {
     height: auto;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     background-color: indigo;
     color: navajowhite;
-    
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-
     text-align: center;
+    font-size: 0.875rem;
 }
 
 .rodape__copyright {
@@ -45,4 +42,33 @@
 
 .rodape__input-enviar {
     font-family: "Silkscreen", "Open Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        /* justify-content: flex-start; */
+    }
+
+    .rodape__icones {
+        padding: 0;
+    }
+
+    .rodape__icone {
+        height: 3rem;
+        margin: 0 1rem;
+    }
+
+    .rodape__input {
+        height: 2rem;
+    }
+
+    .rodape__copyright {
+        padding-top: 1.5rem;
+        flex-basis: 100%;
+
+        font-weight: 700;
+    }
 }
