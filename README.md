@@ -1,3 +1,16 @@
-# kainniel_portifolio
-Esse repositório contém um site com duas páginas (Home e Galeria), criado para ser o portifólio de um artista (<a href="https://twitter.com/Kainniel_Luna">Kainniel</a>).
-Estou aplicando estudos de Front End que desenvolvi a partir do estudo de cursos na Alura.
+<h1 align = "center"> 
+Kainniel - Portifolio
+</h1>
+
+## 💻 What is this website?
+
+> That repo contains a code of a portfolio website for a digital artist. The site has two pages, Home and Gallery, stylized with CSS.
+> I'm practicing all my Front End knowledge developed from studies in Alura.
+
+## ⚒️ Applied Technologies
+1. HTML
+1. CSS
+1. FlexBox
+
+## 🆕 Future Features 
+> I plan to make site functions more dinamic with javascript use that I'm improving.
