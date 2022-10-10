@@ -1,26 +1,26 @@
-.sobre {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+.about {
     background-color: antiquewhite;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
-.sobre__icone {
+.about__icon {
     display: block;
     margin: 0 auto 0.3rem auto;
     width: 2.5rem;
 }
-.sobre__titulo {
-    text-align: center;
+.about__title {
     padding-bottom: 1rem;
+    text-align: center;
 }
 
-.sobre__texto {
+.about__text {
     font-size: 1rem;
 }
 
-.sobre__gif {
-    display: block;
-    width: 10rem;
-    margin: 1rem auto;
+.about__gif {
     box-shadow: 6px 6px 18px 1px black;
+    display: block;
+    margin: 1rem auto;
+    width: 10rem;
 }

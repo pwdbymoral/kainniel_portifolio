@@ -1,14 +1,14 @@
 .banner {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background: antiquewhite;
+    display: flex;
+    flex-direction: column;
 }
 
-.banner__imagem {
-    width: 100vw;
-    max-width: 768px;
+.banner__image {
     box-shadow: rgb(110 94 94) 0px 10px 10px 0.5px;
+    max-width: 768px;
+    width: 100vw;
 }
 
 @media screen and (min-width: 768px) {

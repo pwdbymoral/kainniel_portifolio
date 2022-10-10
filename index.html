@@ -4,59 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">	
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">	
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	<link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
     <title>Kainniel | Home</title>
 </head>
 <body>
-    <header class="cabecalho container">
-		<h1 class="cabecalho__titulo">Kainniel</h1>
-		<nav class="cabecalho__nav">
+    <header class="header container">
+		<h1 class="header__title">Kainniel</h1>
+		<nav class="header__nav">
 			<ul>
-				<li class="cabecalho__link">
+				<li class="header__item">
 					<a href="index.html">Home</a>
 				</li>
-				<li class="cabecalho__link">
-					<a href="pages/galeria.html">Galeria</a>
+				<li class="header__item">
+					<a href="galeria.html">Galeria</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
     <main>
 		<section class="banner container">
-			<img src="img/img1.png" alt="Pixel art 'Evolução da Lia'" class="banner__imagem">
+			<img src="./assets/img/img1.png" alt="Pixel art 'Evolução da Lia'" class="banner__image">
 		</section>
-
-		<section class="sobre container">
-			<img src="img/paintbrush_icon.svg" alt="Pincel e paleta" class="sobre__icone">
-			<h2 class="sobre__titulo titulo">Sobre Kai e Pixels</h2>
-			<p class="sobre__texto">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-			<img src="img/heart_me.gif" alt="Gif com o maralzin fazendo surgir um coração" class="sobre__gif">
+		<section class="about container">
+			<img src="./assets/img/paintbrush_icon.svg" alt="Pincel e paleta" class="about__icon">
+			<h2 class="about__title titulo">Sobre Kai e Pixels</h2>
+			<p class="about__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			<img src="./assets/img/heart_me.gif" alt="Gif com o maralzin fazendo surgir um coração" class="about__gif">
 		</section>
 	</main>
 
-    <footer class="rodape container">
-		<div class="rodape__icones">
+    <footer class="footer container">
+		<div class="footer__icons">
 			<a href="https://twitter.com/Kainniel_Luna" title="Twitter">
-				<img src="img/twitter_icon.svg" alt="Logo do Twitter" class="rodape__icone">
+				<img src="./assets/img/twitter_icon.svg" alt="Logo do Twitter" class="footer__icon">
 			</a>
 			<a href="mailto:danniel.scmelo@gmail.com" title="Email">
-				<img src="img/email_icon.svg" alt="Logo de Email" class="rodape__icone">
+				<img src="./assets/img/email_icon.svg" alt="Logo de Email" class="footer__icon">
 			</a>
 		</div>
 		<form action="">
 			<label for="email">Inscreva-se para receber novidades:</label>
-			<div class="rodape__form">
-				<input type="email" name="" id="email" placeholder="email@dominio.com" class="rodape__input">
-				<input type="submit" value="Enviar" class="rodape__input rodape__input-enviar">
+			<div class="footer__form">
+				<input type="email" name="" id="email" placeholder="email@dominio.com" class="footer__input">
+				<input type="submit" value="Enviar" class="footer__input footer__submit">
 			</div>
 		</form>
-		<p class="rodape__copyright">&copy; Copyright <a href="http://github.com/pwdbymoral">pwdbymoral</a> 2019-2022</p>
+		<p class="footer__copyright">&copy; Copyright <a href="http://github.com/pwdbymoral">pwdbymoral</a> 2019-2022</p>
 	</footer>
 
 </body>

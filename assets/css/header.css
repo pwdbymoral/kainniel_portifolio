@@ -1,35 +1,30 @@
-.cabecalho {
+.header {
+    align-items: center;
     background-color: indigo;
-    color: navajowhite;
-    
-    width: 100%;
-
-    padding-top: .75rem;
     box-sizing: border-box;
-
+    color: navajowhite;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    padding-top: .75rem;
+    width: 100%;
 }
 
-.cabecalho__titulo {
+.header__title {
+    border-bottom: .5rem solid navajowhite;
+    font-family: "Silkscreen";
     font-size: 2.5em;
     font-weight: 700;
-    font-family: "Silkscreen";
-
-    text-transform: uppercase;
     margin-bottom: 1rem;
-    
-    border-bottom: .5rem solid navajowhite;
+    text-transform: uppercase;
 }
 
-.cabecalho__nav {
-    text-align: center;
+.header__nav {
     padding-bottom: 1rem;
+    text-align: center;
 }
 
-.cabecalho__link {
+.header__item {
     display: inline-block;
     font-size: 1.5rem;
     margin: 0 .5rem 1.25rem .5rem;
