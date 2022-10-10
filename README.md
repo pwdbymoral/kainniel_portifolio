@@ -1,5 +1,5 @@
 <h1 align = "center"> 
-Kainniel - Portifolio
+Kainniel - Portfolio
 </h1>
 
 ## 💻 What is this website?
